@@ -6,28 +6,30 @@ dependencies:
   - python=3.13
   - conda[version='>=25.3.0']
   - mamba[version='>=2.1.1']
-  - camb=1.6.5
+  - camb<2
   - compilers
   - cosmosis
   - cosmosis-build-standard-library
   - diffsky
   - firecrown=1.14.3
   - ipykernel
+  - isitgr
   - jupyter
   - lsdb
   - lsstdesc-augur
   - lsstdesc-crow
   - lsstdesc-smokescreen
   - mpi4py
-  - mpich
   - namaster
+  - numpy<2.4
   - opencosmo
   - psycopg2
   - rubin-sim
+  - sacc==2.1.2
+  - scipy<1.18
   - tjpcov
   - pip:
     - cobaya
     - derivkit
-    - isitgr
     - lsstdesc-dataregistry
     - pybinny
