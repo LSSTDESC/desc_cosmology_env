@@ -190,7 +190,7 @@ ENV PYTHONSTARTUP=''
 ENV PATH="${DESC_PYTHON_DIR}/bin:/usr/lib64/openmpi/bin:${PATH}"
 # Ubuntu puts OpenMPI libs here; needed so libmpi.so is found at runtime
 # inside Apptainer which doesn't always propagate the apt ldconfig cache
-ENV LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/openmpi/lib:${LD_LIBRARY_PATH}"
+ENV LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu/openmpi/lib:${LD_LIBRARY_PATH:-}"
 
 # Shell startup
 ## HMKneedto fix path for firecrown_dir
