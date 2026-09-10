@@ -1,5 +1,21 @@
 # desc-cosmology-env
 
+## Using desc-cosmology at NERSC
+
+* After logging onto a NERSC login node, set up the environment
+```
+source $CFS/lsst/groups/MCP/setup-cosmology.sh
+```
+## On NERSC Jupyter
+
+* One-time set up required to use the DESC jupyter kernels
+```
+source /global/common/software/lsst/common/miniconda/kernels/setup.sh
+```
+
+* Once logged into jupyter.nersc.gov, use the `desc-cosmology` kernel
+
+
 ## Using the desc-cosmology docker image on a laptop to run local Jupyter
 
 Prerequisite: install docker on your laptop (see below)
