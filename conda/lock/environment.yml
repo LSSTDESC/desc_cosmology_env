@@ -11,7 +11,7 @@ dependencies:
   - cosmosis
   - cosmosis-build-standard-library
   - diffsky
-  - firecrown=1.14.3
+  - firecrown
   - ipykernel
   - isitgr
   - jupyter
@@ -25,7 +25,7 @@ dependencies:
   - opencosmo
   - psycopg2
   - rubin-sim
-  - sacc==2.1.2
+  - sacc
   - scipy<1.18
   - tjpcov
   - pip:
